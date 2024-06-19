@@ -2,10 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: rgb(49, 147, 232);
+  background-color: aliceblue;
 }
 
 .container-wrapper {
@@ -17,6 +18,10 @@ body {
   flex-direction: column;
 }
 
+.title {
+  padding: 30px;
+}
+
 .palindrome-div {
   display: flex;
   flex-wrap: wrap;
@@ -25,11 +30,12 @@ body {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.132);
   padding: 20px;
   border-radius: 15px;
   background-color: whitesmoke;
   color: black;
+  box-shadow: 0px 05px 10px rgba(25, 111, 241, 0.137);
 }
 
 .palindrome-btn {
@@ -42,12 +48,24 @@ body {
 
 .palindrome-input {
   padding: 10px;
-  height: 30px;
+  height: 34px;
   width: 250px;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 1.2rem;
 }
 
 label {
-  font-size: 22px;
+  font-size: 18px;
+}
+
+.palindrome-desc {
+  margin: 15px;
+  padding: 15px;
+  font-size: 18px;
+  min-height: 45px;
+  width: 410px;
+  background-color: rgb(195, 246, 250);
+  border: 1px solid rgba(0, 0, 0, 0.132);
+  box-shadow: 0px 05px 10px rgba(25, 111, 241, 0.137);
+  border-radius: 20px;
 }
